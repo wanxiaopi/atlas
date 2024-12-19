@@ -162,7 +162,7 @@ class AtlasEntityHeader(AtlasStruct):
         self.classificationNames = attrs.get('classificationNames')
         self.classifications = attrs.get('classifications')
         self.meaningNames = attrs.get('meaningNames')
-        self.meanings = attrs.get('.meanings')
+        self.meanings = attrs.get('meanings')
         self.isIncomplete = non_null(attrs.get('isIncomplete'), False)
         self.labels = attrs.get('labels')
 
